@@ -36,8 +36,15 @@ main {
 
 /* A smaller chip to display the score of a letter or word */
 .tag-sm {
-    font-size: 14px;
+    font-size: 15px;
     margin-left: 0.4em;
+}
+.points{
+
+    background-color: green;
+}
+.no-points{
+ background-color: red;
 }
 
 .word-submission {
@@ -66,3 +73,4 @@ input:focus {
     border: 2px solid #4285F4; /* Bootstrap "primary" blue */
     outline-color: #4285f4; /* outline is the fuzzy "glow" */
 }
+
